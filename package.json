@@ -14,7 +14,7 @@
     "lint:fix": "eslint --fix",
     "format": "prettier . --write",
     "dev": "concurrently \"vite playground\" \"cypress open\"",
-    "build": "tsc && vite build",
+    "build": "tsc -p tsconfig.build.json && vite build",
     "test:e2e": "node scripts/e2e.js",
     "test:unit": "vitest run",
     "prepare": "husky"
