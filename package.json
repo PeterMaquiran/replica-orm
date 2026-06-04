@@ -61,11 +61,11 @@
   ],
   "lint-staged": {
     "*.{ts,tsx}": [
-      "prettier . --write",
+      "prettier --write",
       "eslint --fix"
     ],
     "*.{json,md,css}": [
-      "prettier . --write"
+      "prettier --write"
     ]
   }
 }
