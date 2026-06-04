@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 
+// ESLint is desable in this file
 describe('JavaScript weird equality & coercion', () => {
   it('number vs string', () => {
     expect(1 == '1').toBe(true)
