@@ -1,10 +1,7 @@
-const branch = require('child_process')
-  .execSync('git rev-parse --abbrev-ref HEAD')
-  .toString()
-  .trim()
+import { execSync } from 'child_process'
 
-// Allowed pattern:
-// type/scope-subject
+const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim()
+
 const pattern = /^[a-z]{2,10}\/[a-z0-9]{1,10}-[a-z0-9-]{1,30}$/
 
 if (!pattern.test(branch)) {
