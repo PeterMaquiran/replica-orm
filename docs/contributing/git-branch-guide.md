@@ -11,7 +11,6 @@ This project uses a **strict branch naming convention** to keep work organized a
 ```
 
 - `type` → max 10 chars
-- `scope` → max 10 chars (optional but recommended)
 - `short-name` → max 20 chars, kebab-case
 - all lowercase only
 
@@ -31,10 +30,10 @@ docs/git-guide
 With scope:
 
 ```bash id="b3"
-feat(api)-login
-fix(ui)-overflow
-chore(ci)-lint-rules
-refactor(engine)-query
+feat/api/login
+fix/ui/overflow
+chore/ci/lint-rules
+refactor/engine/-query
 ```
 
 ---
