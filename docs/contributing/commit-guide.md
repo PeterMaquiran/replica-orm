@@ -12,7 +12,7 @@ This project uses **Conventional Commits (strict mode)** to keep history clean a
 
 - `type` → max 10 characters
 - `scope` → optional, max 10 characters
-- `message` → max 20 characters
+- `message` → max 100 characters
 - ❌ No footer allowed
 
 ---
