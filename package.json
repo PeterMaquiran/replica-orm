@@ -60,12 +60,12 @@
     "typescript"
   ],
   "lint-staged": {
-    "*.{ts,tsx,js}": [
-      "prettier --write",
+    "*.{ts,tsx}": [
+      "prettier . --write",
       "eslint --fix"
     ],
     "*.{json,md,css}": [
-      "prettier --write"
+      "prettier . --write"
     ]
   }
 }
