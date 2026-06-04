@@ -29,6 +29,42 @@ pnpm install
 
 ---
 
+## 🪝 Git Hooks (Husky)
+
+Replica ORM uses Husky to enforce code quality before commits.
+
+After cloning the repo, ensure hooks are active:
+
+```bash
+git config core.hooksPath .husky
+```
+
+Verify:
+
+```bash
+git config core.hooksPath
+# expected: .husky
+```
+
+Make hooks executable:
+
+```bash
+chmod +x .husky/*
+```
+
+### Test hooks
+
+```bash
+git add .
+git commit -m "test husky"
+```
+
+If configured correctly, hooks will run before commit.
+
+> If Husky does not run, `core.hooksPath` is likely not set.
+
+---
+
 ## 🚀 Start Development Environment
 
 Run the full dev stack:
