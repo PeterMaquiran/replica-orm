@@ -40,6 +40,7 @@ PLAYGROUNDPORT=5173
 - Always use `pnpm`
 - Node 22+ required
 - Cypress is used for E2E validation
+- dont update .env
 
 ---
 
