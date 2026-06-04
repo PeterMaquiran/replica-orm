@@ -12,7 +12,7 @@ export default {
     'type-empty': [2, 'never'],
     'subject-empty': [2, 'never'],
 
-    // 👇 ADD IT HERE
+    // 👇 ADD IT HERE.
     'header-pattern': [2, 'always', '^[a-z]+: .+$'],
   },
 }
