@@ -29,7 +29,7 @@ export default tseslint.config(
       'src/**/*.{ts,tsx}',
       'playground/**/*.{ts,tsx}',
       'cypress/**/*.ts',
-      '**/**.json',
+      //'**/**.json',
     ],
     languageOptions: {
       globals: {
