@@ -27,3 +27,4 @@
 
 - [Contributing Guide](./contributing/contributing.md)
 - [Commit Guide](./contributing/commit-guide.md)
+- [branch Guide](./contributing/git-branch-guide.md)
