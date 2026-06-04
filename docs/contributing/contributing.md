@@ -8,11 +8,11 @@ This project is infrastructure-level software, so contributions must follow stri
 
 ## 🧱 Code standards
 
-* TypeScript only
-* ESLint must pass
-* Prettier must pass
-* No unused variables
-* No `any` unless justified
+- TypeScript only
+- ESLint must pass
+- Prettier must pass
+- No unused variables
+- No `any` unless justified
 
 ---
 
@@ -22,8 +22,8 @@ All contributions must include tests.
 
 ### Required:
 
-* Unit tests for logic
-* E2E tests for behavior (when relevant)
+- Unit tests for logic
+- E2E tests for behavior (when relevant)
 
 Run:
 
@@ -47,9 +47,9 @@ pnpm test:e2e
 
 ## 🚫 Do not
 
-* Skip tests
-* Commit broken code
-* Disable linting rules without reason
+- Skip tests
+- Commit broken code
+- Disable linting rules without reason
 
 ---
 

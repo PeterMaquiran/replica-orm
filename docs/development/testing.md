@@ -42,9 +42,9 @@ Recommended workflow:
 
 ## 🚨 Rule
 
-* No feature is complete without a passing test
-* UI is not a source of truth
-* Logs are not a source of truth
+- No feature is complete without a passing test
+- UI is not a source of truth
+- Logs are not a source of truth
 
 Only tests define correctness.
 

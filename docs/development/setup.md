@@ -12,7 +12,6 @@ Replica ORM is a **browser-native database runtime** built with a strict **test-
 - pnpm 11+
 - Chrome (recommended for Cypress)
 
-
 ---
 
 ## 📦 fork repo
@@ -191,4 +190,3 @@ If tests pass → feature is correct.
 If tests fail → system is broken.
 
 ---
-

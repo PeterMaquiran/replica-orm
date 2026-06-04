@@ -188,14 +188,12 @@ Replica is designed for **maximum tree-shaking**.
 
 Each package is independent:
 
-
 | Package              | Responsibility             |
 | -------------------- | -------------------------- |
 | `@replica/runtime`   | Core runtime + register    |
 | `@replica/postgres`  | Fields + Model + pg.engine |
 | `@replica/indexeddb` | IndexedDB engine           |
 | `@replica/sqlite`    | (planned)                  |
-
 
 ### Key Principle
 
@@ -213,7 +211,6 @@ import { register } from '@replica/runtime'
 
 `register()` enforces strict compatibility:
 
-
 | Rule                       | Behavior               |
 | -------------------------- | ---------------------- |
 | Models use Postgres fields | Must use `pg.engine()` |
@@ -221,7 +218,6 @@ import { register } from '@replica/runtime'
 | Dialect mismatch           | Throws error           |
 | Duplicate database name    | Throws                 |
 | Model reused across DBs    | Throws                 |
-
 
 ---
 
@@ -325,4 +321,3 @@ Production apps should use `register()` for:
 - testing.md — testing strategy
 - usage-guide.md — API usage
 - schema.md — schema pipeline
-

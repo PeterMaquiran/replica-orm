@@ -2,28 +2,28 @@
 
 ## 🧠 Core Concepts
 
-* [Architecture](./development/architecture.md)
-* [Engines](./development/engines.md)
-* [Schema](./development/schema.md)
-* [Runtime](./development/runtime.md)
+- [Architecture](./development/architecture.md)
+- [Engines](./development/engines.md)
+- [Schema](./development/schema.md)
+- [Runtime](./development/runtime.md)
 
 ---
 
 ## 🚀 Usage
 
-* [Usage Guide](./usage/usage-guide.md)
-* [Examples](./usage/examples.md)
+- [Usage Guide](./usage/usage-guide.md)
+- [Examples](./usage/examples.md)
 
 ---
 
 ## 🛠 Development
 
-* [Setup](./development/setup.md)
-* [Testing](./development/testing.md)
+- [Setup](./development/setup.md)
+- [Testing](./development/testing.md)
 
 ---
 
 ## 🤝 Contributing
 
-* [Contributing Guide](./contributing/contributing.md)
-* [Commit Guide](./contributing/commit-guide.md)
+- [Contributing Guide](./contributing/contributing.md)
+- [Commit Guide](./contributing/commit-guide.md)

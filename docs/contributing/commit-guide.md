@@ -82,6 +82,6 @@ chore: bootstrap project tooling
 
 ## Rule
 
-* Keep commits small
-* One change per commit
-* Use clear messages
+- Keep commits small
+- One change per commit
+- Use clear messages
