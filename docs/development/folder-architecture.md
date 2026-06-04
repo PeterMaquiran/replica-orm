@@ -2,7 +2,7 @@
 
 This document describes the target folder structure for Replica ORM: fields, models, schema generation, registration, local storage, and versioned migrations.
 
-> **Documentation:** [architecture](./architecture.md) 
+> **Documentation:** [architecture](./architecture.md)
 
 ---
 
@@ -18,7 +18,6 @@ src/
 └── state/               shared state
 ```
 
-
 | Folder     | Question it answers              |
 | ---------- | -------------------------------- |
 | `fields/`  | What type is this value?         |
@@ -27,7 +26,6 @@ src/
 | `runtime/` | When/how are databases booted?   |
 | `engine/`  | Where is data persisted locally? |
 | `state/`   | shared state                     |
-
 
 One-line summary:
 
@@ -171,4 +169,5 @@ User code
         ├──────────────► migration/core/planner.ts
         └──────────────► storage/sqlite/adapter.ts
 ```
+
 ---
